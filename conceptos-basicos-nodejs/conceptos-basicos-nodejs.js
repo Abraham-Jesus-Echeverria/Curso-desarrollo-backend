@@ -2,7 +2,7 @@
 
 // -----------------------------para que sirve node----------------------------------------- 
 
-// primero que nada debemos saber que es un servidor, un servidor es el encargado de recivir y administrar las peticiones que haga el cliente desde la ui/ux a traves de un protocolo para luego leer dicha informacion y hacer la peticion de datos a una base de datos para luego devolverlo al cliente normalmente a esto se le llama arquitectura cliente servidor
+// primero que nada debemos saber que es un servidor, un servidor es el encargado de recivir y administrar las peticiones que haga el cliente desde la ui/ux a traves de un protocolo para luego leer dicha informacion y hacer la peticion de datos a una base de datos para luego devolverlo al cliente en un formato especifico normalmente a esto se le llama arquitectura cliente servidor
 
 // pricipalmente node js nos sirve para realizar servidores que nos permitan realizar peticiones de datos a una base de datos de manera asincrona ya que no bloqueamos el hilo principal de ejecucion de nuestro programa o servidor mientras se hacen las peticiones, 
 
