@@ -39,3 +39,5 @@ servidor2.listen('4000', ()=>{
 }); 
 
 // algo que es importante mencionar es que cada ves que recargamos el navegador el servidor inicia sus procesos y realiza las peticiones que le indiquemos, una ves hecha las peticiones se finaliza el proceso del servidor gracias al metodo end y nos devueve un valor, aunque el servidor termine su proceso este se seguira ejecutando, por lo cual cada vez que recargemos el navegador pasara este proceso. 
+
+// es de sumaimportancia cerrar las consultas con el metodo end, ya que si no se mantendra abierta una coneccion con la base de datos y este sera reconocido por nuestro hosting, al tener muchas conecciones abiertas el hosting sera saturado y por lo siguiente el servidor colapsara; 
