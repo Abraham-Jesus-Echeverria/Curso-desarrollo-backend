@@ -8,9 +8,12 @@ const servidorPostAcuario = http.createServer((req,res)=>{
     switch(method){ 
         case 'GET' :  
         if(req.url === '/'){ 
-            res.statusCode = 200; 
-            res.setHeader('Content-Type', 'application/json') 
-            res.end(JSON.stringify(datos)) ; 
+            // res.statusCode = 200; 
+            // res.setHeader('Content-Type', 'application/json');   
+            res.writeHead(200, { 'Content-Type':'application/json'}); 
+            // res.write('<h2>hola mundo</h2>'); 
+            res.end(JSON.stringify(datos));  
+            
         }
         break;  
 

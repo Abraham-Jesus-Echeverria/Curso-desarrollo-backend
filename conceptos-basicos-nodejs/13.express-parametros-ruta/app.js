@@ -10,8 +10,8 @@ const app = express();
 app.get('/cursos/:lenguaje', (req, res)=>{ 
     let lenguaje = req.params.lenguaje; 
     console.log(lenguaje);  
-    res.send(`el lenguaje fue ${lenguaje}`); 
- }); 
+    res.send(`el lenguaje fue ${lenguaje}`);  
+ });  
 
  app.listen(puerto, ()=>{ 
     console.log(`el servidor esta corriendo en el puerto ${puerto}`); 
